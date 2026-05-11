@@ -7,7 +7,9 @@ from compare_job_description import sentences2vec, centroid_distance, highlight_
 import json
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=[
+    "https://your-frontend.vercel.app"
+])
 
 @app.route("/api/compare-job-description", methods=["POST"])
 def compare_description_responsibility():
