@@ -1,0 +1,207 @@
+Algorithm:
+
+An algorithm is a systematic series of steps designed to perform a computation or solve a problem. It is the foundation of programming and appears in areas like sorting, searching, cryptography, and artificial intelligence. A well-optimized algorithm improves software efficiency and scalability.  
+
+API (Application Programming Interface):
+
+An API is a set of rules and protocols that allows different software applications to communicate and interact with each other. It provides a way to access and manipulate data or services offered by a specific software system or platform.
+
+Agile:
+
+Agile is an iterative and incremental approach to software development, emphasizing flexibility, collaboration, and continuous improvement. It involves breaking down work into smaller tasks and delivering working software in short cycles known as sprints.
+
+Big O Notation:
+
+Big O notation describes the performance characteristics (time and space complexity) of an algorithm. It helps analyze and compare the efficiency of different algorithms and is crucial for optimizing code.
+
+Bug:
+
+A bug refers to an error or flaw in a software program that causes it to behave unexpectedly or produce incorrect results. Debugging is the process of identifying and fixing bugs.
+
+Class:
+
+In object-oriented programming, a class is a blueprint or template for creating objects. It defines the properties (attributes) and behaviors (methods) that objects of that class can possess.
+
+Client-Server:
+
+The client-server architecture is a model where software applications (clients) request and receive services or resources from a centralized server. This architecture is fundamental in building distributed systems and web applications.
+
+Cloud Computing:
+
+Cloud computing refers to the delivery of computing services (such as servers, storage, databases, software, etc.) over the internet. It allows software engineers to leverage scalable and on-demand resources without the need for local infrastructure.
+
+Continuous Integration/Continuous Deployment (CI/CD):
+
+Continuous Integration (CI) and Continuous Deployment (CD) are software development practices that streamline and automate the process of integrating new code and deploying it to production.  
+
+CI ensures frequent code updates by automatically running tests and integrating changes into a shared repository, helping catch bugs early. 
+CD automates the release process, ensuring that tested code is deployed reliably and rapidly.
+These practices reduce development cycle times and improve software stability.  
+
+Containerization:
+
+Containerization is a lightweight virtualization method that packages software code with all its dependencies into a standardized unit called a container. Containers ensure that applications run consistently across various computing environments, eliminating compatibility issues.  
+
+Popular containerization platforms include Docker and Kubernetes, which help automate the deployment, scaling, and management of containerized applications.  
+
+Data Structure:
+
+A data structure is a way of organizing and storing data to perform operations efficiently. Examples include arrays, linked lists, stacks, queues, trees, graphs, and hash tables.
+
+Database:
+
+A database is a structured collection of data that is organized, stored, and accessed electronically. It provides a reliable and efficient way to store and retrieve large amounts of information.
+
+Debugging:
+
+Debugging is the process of identifying and fixing errors or defects in software programs. It involves techniques like code analysis, logging, and step-by-step execution to locate and resolve issues.
+
+Dependency Injection:
+
+Dependency injection is a design pattern that allows objects to be loosely coupled by providing dependencies from external sources. It promotes code reusability, testability, and modularity.
+
+Design Patterns:
+
+Design patterns are reusable solutions to common software design problems. They provide proven approaches to solve specific challenges, enhance code quality, and promote maintainability.
+
+Encryption:
+
+Encryption is the process of converting data into an unreadable form to protect it from unauthorized access. It ensures data security and confidentiality.
+
+Framework:
+
+A framework is a reusable set of libraries, components, and tools that provide a foundation for building software applications. Frameworks streamline development by offering pre-defined structures and functionalities.
+
+Git:
+
+Git is a widely used distributed version control system that allows multiple developers to collaborate on the same codebase efficiently. It tracks changes, manages branches, and facilitates code merging.
+
+IDE (Integrated Development Environment):
+
+An IDE is a software application that provides comprehensive tools and features to facilitate software development. It typically includes a code editor, debugger, build automation, and other productivity-enhancing features.
+
+Inheritance:
+
+Inheritance is a fundamental concept in object-oriented programming. It allows a class to inherit properties and behaviors from another class, promoting code reuse and creating hierarchical relationships between classes.
+
+Interface:
+
+An interface defines a contract for a class, specifying the methods that the class must implement. It enables loose coupling and helps achieve abstraction and polymorphism.
+
+JavaScript:
+
+JavaScript is a popular programming language used for building dynamic and interactive web applications. It runs on the client-side as well as the server-side.
+
+Library:
+
+A library is a collection of pre-written code that provides specific functionalities and can be reused across multiple projects. Libraries save development time and promote code reuse.
+
+Machine Learning:
+
+Machine learning is a field of artificial intelligence that focuses on developing algorithms and models that allow computers to learn and make predictions or decisions without explicit programming.
+
+MVC (Model-View-Controller):
+
+MVC is a software architectural pattern that separates the application logic into three interconnected components: the model (data), the view (user interface), and the controller (mediator between model and view). It enhances code organization and maintainability.
+
+Object-Oriented Programming (OOP):
+
+OOP is a programming paradigm that structures software around objects that encapsulate data and behaviors. It promotes code reusability, modularity, and abstraction.
+
+Open Source:
+
+Open source refers to software whose source code is freely available and can be modified and distributed by anyone. Open source software promotes collaboration, transparency, and community-driven development.
+
+Performance Optimization:
+
+Performance optimization involves improving the speed, efficiency, and resource usage of software applications. Techniques include code profiling, algorithmic improvements, caching, and resource management.
+
+Platform:
+
+A platform is a combination of hardware and software components that provide an environment for developing and executing software applications. Examples include operating systems, web platforms, and mobile platforms.
+
+Refactoring:
+
+Refactoring is the process of restructuring existing code to improve its design, readability, and maintainability without changing its external behavior. It helps eliminate technical debt and enhances code quality.
+
+REST (Representational State Transfer):
+
+REST is an architectural style for designing networked applications. It uses standard HTTP methods (GET, POST, PUT, DELETE) to manipulate resources and supports stateless, scalable, and loosely coupled interactions.
+
+Scrum:
+
+Scrum is an agile project management framework that focuses on iterative and incremental development. It emphasizes self-organizing teams, regular feedback, and adaptability.
+
+Software Development Life Cycle (SDLC):
+
+The SDLC is a process framework that outlines the phases and activities involved in software development. It typically includes requirements gathering, design, implementation, testing, deployment, and maintenance.
+
+Software Testing:
+
+Software testing is the process of verifying and validating software to ensure that it meets specified requirements and functions as expected. It includes techniques like unit testing, integration testing, and system testing.
+
+SQL (Structured Query Language):
+
+SQL is a programming language used to manage and manipulate relational databases. It provides a standardized way to interact with databases, perform queries, and modify data.
+
+Stack: (Tech-stack)
+
+A stack is a data structure that follows the Last-In-First-Out (LIFO) principle. It allows insertion and removal of elements only at one end and is commonly used for function calls, expression evaluation, and undo operations.
+
+Static vs. Dynamic Typing:
+
+Static typing refers to a programming language feature where variables are explicitly declared with their types at compile time. Dynamic typing allows variables to be assigned values of different types at runtime, with type checking performed during execution.
+
+Test-Driven Development (TDD):
+
+TDD is a development approach that emphasizes writing tests before implementing the actual code. It helps ensure code correctness, promotes modular design, and facilitates refactoring.
+
+User Experience (UX):
+
+UX focuses on enhancing user satisfaction by improving the usability, accessibility, and enjoyment of software applications. It involves understanding user needs, conducting user research, and designing intuitive interfaces.
+
+Version Control:
+
+Version control is the practice of tracking and managing changes to software code or documents over time. It allows collaboration, rollback to previous versions, and facilitates code review.
+
+Virtualization:
+
+Virtualization refers to the creation of virtual versions of computer resources, such as servers, operating systems, storage, or networks. It enables efficient utilization of hardware and provides isolation and flexibility.
+
+Web Services:
+
+Web services are software systems that allow interoperable machine-to-machine communication over a network. They enable applications to communicate and share data using standard web protocols like HTTP and XML.
+
+XML (eXtensible Markup Language):
+
+XML is a markup language that defines rules for encoding documents in a format that is both human-readable and machine-readable. It is commonly used for data interchange between different systems.
+
+Agile Manifesto:
+
+The Agile Manifesto is a set of principles for agile software development. It emphasizes individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan.
+
+Continuous Integration/Continuous Deployment (CI/CD):
+
+CI/CD is a set of practices that automate the building, testing, and deployment of software changes. It enables developers to integrate code changes frequently and deliver them to production environments efficiently.
+
+DevOps:
+
+DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to achieve faster software delivery and increased reliability. It emphasizes collaboration, automation, and continuous feedback.
+
+Kanban:
+
+Kanban is an agile project management methodology that focuses on visualizing work, limiting work in progress, and optimizing flow. It helps teams manage tasks and improve efficiency.
+
+Microservices:
+
+Microservices is an architectural style that structures an application as a collection of small, loosely coupled, and independently deployable services. It promotes scalability, flexibility, and easy maintenance.
+
+Pair Programming:
+
+Pair programming involves two programmers working together on the same task, with one acting as the driver (writing code) and the other as the observer or navigator (reviewing code and offering suggestions). It fosters collaboration, knowledge sharing, and code quality.
+
+Scalability:
+
+Scalability refers to the ability of a software system to handle increasing workloads and user demands without compromising performance. It involves designing and implementing solutions that can adapt and scale effectively.
+
+Software Architecture:

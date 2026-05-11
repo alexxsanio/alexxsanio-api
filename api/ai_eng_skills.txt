@@ -1,0 +1,47 @@
+RAG - 321 jobs (35.9%)
+prompt engineering - 260 jobs (29.1%)
+LLMs - 227 jobs (25.4%)
+LangChain - 168 jobs (18.8%)
+agents - 129 jobs (14.4%)
+OpenAI API - 78 jobs (8.7%)
+LangGraph - 72 jobs (8.0%)
+LlamaIndex - 52 jobs (5.8%)
+Anthropic API - 49 jobs (5.5%)
+PyTorch - 197 jobs
+TensorFlow - 115 jobs
+fine-tuning - 76 jobs
+model training - 57 jobs
+model evaluation - 40 jobs
+scikit-learn - 33 jobs
+embeddings - 33 jobs
+React - 132 jobs
+FastAPI - 96 jobs
+APIs - 58 jobs
+REST APIs - 58 jobs
+REST - 54 jobs
+API design - 42 jobs
+vector databases - 97 jobs
+PostgreSQL - 83 jobs
+Pinecone - 53 jobs
+Redis - 43 jobs
+Postgres - 42 jobs
+Weaviate - 41 jobs
+AWS - 359 jobs
+Azure - 214 jobs
+GCP - 205 jobs
+Docker - 277 jobs
+CI/CD - 262 jobs
+Kubernetes - 260 jobs
+MLOps - 107 jobs
+Terraform - 104 jobs
+Python - 738 jobs (82.5%)
+TypeScript - 209 jobs (23.4%)
+Java - 133 jobs (14.9%)
+Go - 101 jobs (11.3%)
+SQL - 88 jobs (9.8%)
+GenAI - ft
+LangChain - 168 jobs (18.8%)
+LangGraph - 72 jobs (8.0%)
+LlamaIndex - 52 jobs (5.8%)
+CrewAI - 28 jobs (3.1%)
+AutoGen - 17 jobs (1.9%)
