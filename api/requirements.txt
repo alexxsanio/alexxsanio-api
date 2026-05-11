@@ -6,6 +6,3 @@ gunicorn
 sent2vec
 scipy
 nltk
-html
-json
-re
