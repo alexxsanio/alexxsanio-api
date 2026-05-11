@@ -8,7 +8,7 @@ import json
 
 app = Flask(__name__)
 CORS(app, origins=[
-    "https://your-frontend.vercel.app"
+    "https://alexxsanio-api.vercel.app"
 ])
 
 @app.route("/api/compare-job-description", methods=["POST"])
