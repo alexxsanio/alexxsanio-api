@@ -33,13 +33,13 @@ def compare_description_responsibility():
 
     vec1 = sentences2vec(responsibility)
     vec2 = sentences2vec(resume_experience)
-    responsibility_score = round(centroid_distance(vec1, vec2)/10, 4)*100
+    responsibility_score = round(centroid_distance(vec1, vec2)*10, 4)
 
     return jsonify({
         "highlightedJob": highlight_text(job_text, keywords),
         "highlightedResume": highlight_text(resume_text, keywords),
         "missingKeywords": missing_keywords,
-        "responsibilityScore": responsibility_score,
+        "responsibilityScore": np.float32(responsibility_score),
     })
 
 @app.route("/api/create-treemap", methods=["POST"])

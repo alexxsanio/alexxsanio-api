@@ -76,7 +76,8 @@ export default function TreemapPage() {
         <p className="mb-8 text-gray-600">
           Pie chart is conventionally not well-regarded for visually displaying ratios. 
           <a href="https://www.tableau.com/chart/what-is-treemap" className="text-blue-400">Tree map</a> is a great
-          alternative to it. Upload a CSV, select a column, and generate a treemap via Flask + Plotly.
+          alternative to it. Upload a CSV, select a column, and generate a treemap via Flask + Plotly. (this only
+            works for a csv not too large, for example, a couple hundreds KB)
         </p>
 
         <div className="rounded-2xl border bg-white p-6 shadow-sm">
