@@ -1,9 +1,10 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
+import numpy as np
 import plotly.express as px
 
-from compare_job_description import sentences2vec, centroid_distance, highlight_text, extract_matches
+from utility.compare_job_description import sentences2vec, centroid_distance, highlight_text, extract_matches
 import json
 
 app = Flask(__name__)
