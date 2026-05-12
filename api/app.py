@@ -40,7 +40,7 @@ def compare_description_responsibility():
         "highlightedJob": highlight_text(job_text, keywords),
         "highlightedResume": highlight_text(resume_text, keywords),
         "missingKeywords": missing_keywords,
-        "responsibilityScore": np.float32(responsibility_score),
+        "responsibilityScore": float(responsibility_score),
     })
 
 @app.route("/api/create-treemap", methods=["POST"])
