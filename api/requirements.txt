@@ -6,3 +6,8 @@ gunicorn
 sent2vec
 scipy
 nltk
+transformers
+datasets
+torch
+soundfile
+pymupdf
