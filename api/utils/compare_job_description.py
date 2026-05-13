@@ -58,7 +58,7 @@ def extract_matches(text, keywords):
 # ---------- one-off functions ----------
 
 def getSWESkills():
-    with open('software_eng_skills.txt', 'r') as file:
+    with open('../statics/software_eng_skills.txt', 'r') as file:
         texts = file.read()
 
     tokens = texts.split("\n\n")
@@ -66,13 +66,13 @@ def getSWESkills():
 
     print(skills)
     
-    with open("SWESkills.json", "w") as f:
+    with open("../statics/SWESkills.json", "w") as f:
         json.dump(skills, f)
 
     return skills
 
 def getAIEngSkills():
-    with open('ai_eng_skills.txt', 'r') as file:
+    with open('../statics/ai_eng_skills.txt', 'r') as file:
         texts = file.read()
 
     matches = [text.split(" - ") for text in texts.split("\n")]
@@ -81,7 +81,7 @@ def getAIEngSkills():
         matches_flattened.extend(match)
     skills = matches_flattened[0::2][:-1]
     
-    with open("AIEngSkills.json", "w") as f:
+    with open("../statics/AIEngSkills.json", "w") as f:
         json.dump(skills, f)
 
     return skills
