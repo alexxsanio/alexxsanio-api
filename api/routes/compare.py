@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from utility.compare_job_description import sentences2vec, centroid_distance, highlight_text, extract_matches
+from utils.compare_job_description import sentences2vec, centroid_distance, highlight_text, extract_matches
 import json
 
 compare_bp = Blueprint("compare", __name__)
