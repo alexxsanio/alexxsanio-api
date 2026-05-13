@@ -4,7 +4,7 @@ import json
 
 compare_bp = Blueprint("compare", __name__)
 
-@app.route("/api/compare-job-description", methods=["POST"])
+@compare_bp.route("/api/compare-job-description", methods=["POST"])
 def compare_description_responsibility():
     data = request.get_json()
 

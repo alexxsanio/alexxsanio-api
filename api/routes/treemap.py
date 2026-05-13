@@ -5,7 +5,7 @@ import plotly.express as px
 
 treemap_bp = Blueprint("treemap", __name__)
 
-@app.route("/api/create-treemap", methods=["POST"])
+@treemap_bp.route("/api/create-treemap", methods=["POST"])
 def create_treemap():
     file = request.files["file"]
     group_by = request.form["group_by"]

@@ -3,7 +3,7 @@ export default function ProjectsPage() {
     {
       title: "Compare Software Engineer Job Description & Your Resume",
       description:
-        "Returns a score between job responsibility and your experiences, and highlights keywords in technical skill requirements that matches with skills mentioned in your resume. ",
+        "Returns a score between job responsibility and your experiences, and highlights keywords in technical skill requirements that matches with skills mentioned in your resume.",
       link: "/compare-job-description",
     },
     {
@@ -12,12 +12,18 @@ export default function ProjectsPage() {
         "Try this out to create a treemap (ratio plot alternative) for your data!",
       link: "/create-treemap",
     },
+    {
+      title: "PDF ➜ Speech",
+      description:
+        "Converts short pdf to an audio file where you can download and listen to in your own time. Specifically created with reading paper in mind.",
+      link: "/pdf2speech",
+    },
   ];
 
   return (
     <main className="min-h-screen bg-white text-black flex justify-center">
       <div className="w-full max-w-2xl px-6 py-16 border-l border-r border-black">
-        
+
         <h1 className="text-center text-3xl font-semibold mb-16 tracking-wide">
           Tiny Toolings ©DotsAI
         </h1>
@@ -38,4 +44,4 @@ export default function ProjectsPage() {
       </div>
     </main>
   );
-}
+} 
