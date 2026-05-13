@@ -31,6 +31,9 @@ export default function ComparePage() {
           <h1 className="text-2xl font-bold mb-6 text-gray-700">
             👍 Compare Job Description with Resume
           </h1>
+          <p className="mb-8 text-gray-600">
+            This calculation might take a minute.
+          </p>
 
           <div className="space-y-6 overflow-y-auto flex-1 pr-2">
 
