@@ -57,7 +57,7 @@ def clean_text(text):
 
     return text
 
-MAX_CHARS = 90
+MAX_CHARS = 80
 
 def split_text(text, max_chars=MAX_CHARS):
     tokens = text.split(" ")

@@ -25,7 +25,6 @@ def pdf2speech():
     try:
         # 1. Extract text
         texts = pdf2texts(pdf_path, start_page, end_page)
-        print("texts ---------------------------", texts)
 
         if not texts or texts.strip() == "":
             return jsonify({"error": "No text extracted from PDF"}), 400

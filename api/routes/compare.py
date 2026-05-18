@@ -1,6 +1,7 @@
 from flask import Blueprint, request, jsonify
 from utils.compare_job_description import sentences2vec, centroid_distance, highlight_text, extract_matches
 import json
+from pathlib import Path
 
 compare_bp = Blueprint("compare", __name__)
 
@@ -13,7 +14,9 @@ def compare_description_responsibility():
     resume_experience = data.get("resumeExperience", "")
     resume_skills = data.get("resumeSkills", "")
 
-    with open("skills.json", "r") as f:
+    current_path = Path(__file__).resolve()
+    grandparent_dir = current_path.parents[1]
+    with open(f"{grandparent_dir}/statics/skills.json", "r") as f:
         keywords = json.load(f)
 
     job_text = f"{responsibility} {job_skills}"

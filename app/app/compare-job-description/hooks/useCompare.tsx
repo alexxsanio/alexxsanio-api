@@ -9,7 +9,7 @@ export function useCompare() {
     setResult(null);
 
     try {
-      const res = await fetch("https://alexxsanio-api-h7abb.ondigitalocean.app/api/compare-job-description", {
+      const res = await fetch("http://127.0.0.1:5000/api/compare-job-description", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
