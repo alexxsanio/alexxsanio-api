@@ -45,7 +45,7 @@ export default function TreemapPage() {
       formData.append("group_by", groupBy);
 
       const res = await fetch(
-        `http://127.0.0.1:5000/api/create-treemap`,
+        "alexxsanio-api-h7abb.ondigitalocean.app/api/compare-job-description",
         {
           method: "POST",
           body: formData,
