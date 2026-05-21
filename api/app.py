@@ -5,11 +5,10 @@ from routes.treemap import treemap_bp
 from routes.pdf2speech import pdf2speech_bp
 
 app = Flask(__name__)
-CORS(app)
 
-'''CORS(app, origins=[
+CORS(app, origins=[
     "https://alexxsanio-api.vercel.app"
-])'''
+])
 
 
 app.register_blueprint(compare_bp)
