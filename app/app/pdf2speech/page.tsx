@@ -25,7 +25,7 @@ const handleSubmit = async () => {
   }
 
   try {
-    const res = await fetch("https://stingray-app-dne39.ondigitalocean.app/api/compare-job-description", {
+    const res = await fetch("https://stingray-app-dne39.ondigitalocean.app/api/pdf2speech", {
       method: "POST",
       body: formData,
     });

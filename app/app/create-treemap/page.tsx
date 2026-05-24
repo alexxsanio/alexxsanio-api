@@ -45,7 +45,7 @@ export default function TreemapPage() {
       formData.append("group_by", groupBy);
 
       const res = await fetch(
-        "https://stingray-app-dne39.ondigitalocean.app/api/compare-job-description",
+        "https://stingray-app-dne39.ondigitalocean.app/api/create-treemap",
         {
           method: "POST",
           body: formData,

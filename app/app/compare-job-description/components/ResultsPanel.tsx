@@ -25,7 +25,7 @@ function InfoTooltip() {
       {/* Tooltip */}
       {open && (
         <div className="absolute z-10 w-80 p-3 text-xs text-gray-600 bg-white border rounded-lg shadow-lg top-6 left-0">
-          The matching score is computed by converting each sentence into a vector
+          The matching score is computed by converting each sentence into a numerical representation
           using the{" "}
           <a
             href="https://github.com/epfml/sent2vec"
@@ -42,8 +42,9 @@ function InfoTooltip() {
           >
             n-grams
           </a>{" "}
-          to embed sentences. We then compute cosine distance between centroid
-          vectors of job responsibilities and resume experience.
+          to embed sentences into the representation. We then compute cosine distance between centroid
+          vectors of job responsibilities and resume experience, which eseentially measures how similar 
+          the two "point clouds" of sentence representations are.
         </div>
       )}
     </div>

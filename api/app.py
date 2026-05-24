@@ -6,10 +6,11 @@ from routes.pdf2speech import pdf2speech_bp
 
 app = Flask(__name__)
 
-CORS(app, origins=[
+'''CORS(app, origins=[
     "https://alexxsanio-api.vercel.app"
-])
+])'''
 
+CORS(app)
 
 app.register_blueprint(compare_bp)
 app.register_blueprint(treemap_bp)

@@ -4,10 +4,11 @@ import os
 
 from utils.pdf2speech import pdf2texts, text2speech
 
-pdf2speech_bp = Blueprint("pdf2speech", __name__)
+pdf2speech_bp = Blueprint("pdf2speech", __name__, url_prefix="/api")
 
 @pdf2speech_bp.route("/pdf2speech", methods=["POST"])
 def pdf2speech():
+    print("...")
     if "file" not in request.files:
         return jsonify({"error": "No file provided"}), 400
 

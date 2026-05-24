@@ -3,9 +3,9 @@ from utils.compare_job_description import sentences2vec, centroid_distance, high
 import json
 from pathlib import Path
 
-compare_bp = Blueprint("compare", __name__)
+compare_bp = Blueprint("compare", __name__, url_prefix="/api")
 
-@compare_bp.route("/api/compare-job-description", methods=["POST"])
+@compare_bp.route("/compare-job-description", methods=["POST"])
 def compare_description_responsibility():
     data = request.get_json()
 
@@ -29,7 +29,7 @@ def compare_description_responsibility():
 
     vec1 = sentences2vec(responsibility)
     vec2 = sentences2vec(resume_experience)
-    responsibility_score = round(centroid_distance(vec1, vec2)*10, 4)
+    responsibility_score = round((10/centroid_distance(vec1, vec2))*10, 4)
 
     return jsonify({
         "highlightedJob": highlight_text(job_text, keywords),

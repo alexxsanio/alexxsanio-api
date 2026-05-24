@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
-treemap_bp = Blueprint("treemap", __name__)
+treemap_bp = Blueprint("treemap", __name__, url_prefix="/api")
 
 @treemap_bp.route("/api/create-treemap", methods=["POST"])
 def create_treemap():
